@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+/* Base
+   ========================================================================== */
+
+/* Colors */
+
+$colorPrimary:                  pink;
+$colorSecondary:                orange;
+
+/* Structure */
+
+$breakpointMaxWidth:            960px;
+//$breakpointSmall:               420px;
+//$breakpointMedium:              767px;
+//$breakpointLarge:               768px; 
+
+/* Typography  */
+
+$baseFontSize:                  16; // No px on this
+$baseLineHeight:                25px; 
+$baseFontFamily:                Arial, Helvetica, sans-serif;
+$baseFontColor:                 #222;
+
+$headingFontFamily:             Arial, Helvetica, sans-serif; 
+$headingColor:                  #222;
+
+$headingAlpha:                  32px;
+$headingBeta:                   24px;
+$headingGamma:                  19px;
+$headingDelta:                  16px;
+$headingEpsilon:                13px;
+$headingZeta:                   11px;
+
+/* Links  */
+$linkColor:                     #00e;
+$linkVisited:                   lighten($linkColor, 10);
+$linkHover:                     darken($linkColor, 20);
+$linkActive:                    darken($linkColor, 20);
+$linkFocus:                     darken($linkColor, 40);
+
+/* Modules
+   ========================================================================== */
+
+/* Alert */ 
+
+$alertInfoBgColor:             #D9EDF7;
+$alertInfoTextColor:           #3A87AD;
+$alertInfoBorderColor:         #8CABBB;
+
+$alertErrorBgColor:            #F2DEDE;
+$alertErrorTextColor:          #B94A48;
+$alertErrorBorderColor:        #C78E8D;
+
+$alertSuccessBgColor:          #DFF0D8;
+$alertSuccessTextColor:        #468847;
+$alertSuccessBorderColor:      #748B74;
+
+/* Button */
+
+$buttonPrimaryTextColor:        #FFF; 
+$buttonPrimaryBgColor:          #3B8BAD;
+$buttonPrimaryBgColorHover:     darken($buttonPrimaryBgColor, 10%);
+
+/* Form .... */ 
+
+$formInputColor:                #222;
+$formPlaceholderColor:          #CCC;

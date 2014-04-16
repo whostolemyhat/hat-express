@@ -1,0 +1,17 @@
+{
+  "name": "whostolemyhat-express",
+  "version": "0.0.2",
+  "author": "whostolemyhat",
+  "dependencies": {
+    "express": "3.4.5",
+    "jade": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "*",
+    "grunt-sass": "*",
+    "load-grunt-tasks": "*",
+    "jshint-stylish": "~0.1.5",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-express-server": "~0.4.13"
+  }
+}
